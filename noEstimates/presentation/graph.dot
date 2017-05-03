@@ -1,0 +1,24 @@
+digraph g {
+	rankdir = "LR";
+	a [label="Resuorce Utilization"];
+	b [label="Scaling Fallacy"];
+	c [label="#Initiatives"];
+	d [label="Allocated Capacity per Initiative"];
+	e [label="Throughput"];
+	f [label="Quality of Forecasts"];
+	g [label="Cycle Time"];
+	h [label="Customer Satisfaction"];
+	i [label="Agility"];
+
+	a -> c;
+	b -> c;
+	c -> d [label="O"];
+	d -> e;
+	d -> g [label="O"];
+	e -> f;
+	g -> f [label="O"];
+	g -> i [label="O"];
+	h -> c [label="O"];
+	f -> h;
+	g -> h [label="O"];
+}
