@@ -45,7 +45,7 @@ problems into its parts and add them up. This works fine as long as the complida
 the individual parts are not interacting. If they are interacting multiplication 
 of the estimates are more appropiate.
 
-6. ** Estimates are misused:** 
+6. **Estimates are misused:**  
 ![](estimatesDeadlines.png)  
 Estimates are guesses made with limited information and should 
 be used with care. Often the estimates are converted into commitments and time plans 
@@ -66,7 +66,7 @@ Agile methods focuses on  has mechanisms to give good enough results with minima
 In general it is built on three principles.
 
 * **Disconnecting estimates from time**
-* **Yesterdays weather **
+* **Yesterdays weather**
 * **Pull**
 
 #### Disconnect estimates from time
